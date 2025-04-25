@@ -4,6 +4,13 @@
  */
 package javabasico;
 
+import Data.Bucles;
+import Data.Condicionales;
+import Data.EstructuraDateArrays;
+import Data.EstructuraDatoArrayList;
+import Data.EstructuraDatoHasMap;
+import Data.Expciones;
+import Data.OperacionesDeCompracion;
 import Data.OperadoresAritmeticos;
 import Data.OperadoresLogicos;
 import java.util.Scanner;
@@ -23,7 +30,7 @@ public class JavaBasico {
       System.out.println("5.Condicionales");
       System.out.println("6.Bucles");
       System.out.println("7.Exepciones");
-      System.out.println("8.Array");
+      System.out.println("8.Arrays");
       System.out.println("9.listas");
       System.out.println("10.Mapa de Valores");
       
@@ -44,6 +51,28 @@ public class JavaBasico {
                  OperadoresAritmeticos oa = new OperadoresAritmeticos();
                  oa.principal();
               case 3:
+                      OperacionesDeCompracion  odc = new OperacionesDeCompracion();
+                      odc.principal();
+              case 5:
+                  Condicionales con = new Condicionales();
+                  con.principal();
+               case 6:
+                   Bucles bucles = new Bucles();
+                   bucles.principal();
+              case 7:
+                  Expciones ex = new Expciones();
+        ex.principal();
+              case 8:
+                  EstructuraDateArrays obj = new EstructuraDateArrays();
+                  obj.principal();
+               case 9:
+                   EstructuraDatoArrayList od = new EstructuraDatoArrayList();
+                   od.principal();
+                   break;
+                case 10:
+                    EstructuraDatoHasMap hm = new EstructuraDatoHasMap();
+                   hm.principal();
+                   break;
                   ///...
               default:
               System.out.println("opcion no encontrada intentalo de nuevo");

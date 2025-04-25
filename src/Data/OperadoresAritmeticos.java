@@ -17,7 +17,8 @@ public class OperadoresAritmeticos {
      
      int a = 100;
      int b = 70;
-         System.out.println("Suma: " + (a + b));
+     
+        System.out.println("Suma: " + (a + b));
         System.out.println("Resta: " + (a - b));
         System.out.println("Multiplicación: " + (a * b));
         System.out.println("División: " + (a / b));
